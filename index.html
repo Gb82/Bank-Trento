@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bank.css">
+    <title>The Bank</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><img src="img/eagle.png" alt="logo">Trento bank</h1>
+
+      <div class="transaction-container">
+        <div class="checking">
+          <h2>Checking</h2>
+          <h4>your amount is...</h4>
+          <div class="checkingValue">
+            <p>$<span>0</span></p>
+          </div>
+          <div class="bottoni-checking">
+            <input id="money-value" type="number" placeholder="enter amount here">
+            <div id="buttons-checking">
+              <button id="button-deposit">deposit</button><button id="button-withdraw" name="button">withdraw</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="savings">
+
+          <h2>Savings</h2>
+          <h4>your amount is...</h4>
+          <div class="savingsValue">
+            <p>$<span>0</span></p>
+          </div>
+          <div class="bottoni-saving">
+            <input id="money-value1" type="number" name="inputBox" placeholder="enter your text here">
+            <div id="buttons-savings">
+              <button id="button-deposit-saving" name="button">deposit</button><button id="button-withdraw-saving" name="button">withdraw</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <footer>&#169 Since 1982;</footer>
+    </div>
+    <script src="bank.js"></script>
+   </body>
+</html>

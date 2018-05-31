@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css?family=Medula+One');
+
+
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/01/29/07/64/240_F_129076421_p4fJFatElZTdFoKBLkPv1AII9ECct47Y.jpg");
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+
+}
+
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Medula One', cursive;
+  font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h1 img {
+  height: 53px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  font-size: 33px;
+}
+
+span {
+  font-size: 35px;
+}
+
+#button-deposit {
+  border-radius: 10px;
+  outline: none;
+}
+
+#button-withdraw {
+  border-radius: 10px;
+  outline: none;
+}
+
+#button-deposit-saving {
+  border-radius: 10px;
+  outline: none;
+}
+
+#button-withdraw-saving {
+  border-radius: 10px;
+  outline: none;
+}
+
+
+
+
+#money-value1  {
+  height: 30px;
+  font-size: 13px;
+  border-radius: 10px;
+  outline: none;
+}
+
+#money-value  {
+  height: 30px;
+  font-size: 13px;
+  border-radius: 10px;
+  outline: none;
+}
+ /* per selezzionare un div specifico bisogna usare il punto attacato al div!! */
+/* div.savings {
+  background-color: red;
+} */
+
+.savings {
+  height: 300px;
+  width: 300px;
+  background-color: mistyrose;
+  text-align: center;
+  font-family: 'Medula One', cursive;
+  border-radius: 30px;
+  border-width:5px;
+  border-style:groove;
+}
+
+.checking {
+  height: 300px;
+  width: 300px;
+  background-color: mistyrose;
+  text-align: center;
+  font-family: 'Medula One', cursive;
+  border-radius: 30px;
+  border-width:5px;
+  border-style:groove;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-family: 'Medula One', cursive;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: white;
+    background-size: 0%;
+    background-repeat: no-repeat;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .transaction-container {
+    display: inline-block;
+  }
+    /* .checking {
+      background-color: lightyellow;
+    } */
+  .savings {
+    background-color: lightblue;
+  }
+}
